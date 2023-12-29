@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import * as d3 from "d3";
 
-const EvilFace = () => {
+const Face = () => {
 	const [width, setWidth] = useState(window.innerWidth);
 	const [height, setHeight] = useState(window.innerHeight);
 
@@ -110,4 +110,4 @@ const EvilFace = () => {
 	);
 };
 
-export default EvilFace;
+export default Face;
