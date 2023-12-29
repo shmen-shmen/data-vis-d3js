@@ -2,7 +2,16 @@
 	margin: 0;
 	padding: 0;
 }
+#app {
+	min-height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
 .svg-wrapper {
-	width: 100%;
-	height: 100vh;
+	width: fit-content;
+	height: fit-content;
+}
+.lowerJaw {
+	transition: transform 50ms ease-out;
 }

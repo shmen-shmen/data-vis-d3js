@@ -1,5 +1,6 @@
 import React from "react";
 import Face from "./Face.js";
+import EvilFace from "./EvilFace.js";
 import "./style.css";
 import { createRoot } from "react-dom/client";
 
@@ -8,10 +9,10 @@ const root = createRoot(domNode);
 
 const App = () => {
 	return (
-		<>
-			<h1>FUCKFACE</h1>
-			<Face />
-		</>
+		<div id="app">
+			{/* <Face /> */}
+			<EvilFace />
+		</div>
 	);
 };
 root.render(<App />);

@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import * as d3 from "d3";
 
-const Face = () => {
+const EvilFace = () => {
 	const [width, setWidth] = useState(window.innerWidth);
 	const [height, setHeight] = useState(window.innerHeight);
 
@@ -24,8 +24,8 @@ const Face = () => {
 	const strokeWidth = 10;
 	const eyeOffsetX = centerX * 0.2;
 	const eyeOffsetY = centerY * 0.15;
-	const rEye = 0.05 * diag;
-	const rBlink = 0.02 * diag;
+	const rEye = 0.04 * diag;
+	const rBlink = 0.025 * diag;
 
 	const [phiLeft, setPhiLeft] = useState(0);
 	const [phiRight, setPhiRight] = useState(0);
@@ -110,4 +110,4 @@ const Face = () => {
 	);
 };
 
-export default Face;
+export default EvilFace;
