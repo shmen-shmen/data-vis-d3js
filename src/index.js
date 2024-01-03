@@ -10,8 +10,8 @@ const root = createRoot(domNode);
 const App = () => {
 	return (
 		<div id="app">
-			{/* <Face /> */}
-			<EvilFace />
+			<Face />
+			{/* <EvilFace /> */}
 		</div>
 	);
 };
